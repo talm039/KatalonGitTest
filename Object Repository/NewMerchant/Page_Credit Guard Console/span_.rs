@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>ad3cea3f-a1b9-42a6-9670-11bc78f04a11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/app-merchant-configuration/div/app-merchant-details/form/app-layout-fixed/div/div/div/div/app-secured-form/app-secured-content/fieldset/div[2]/div/div/div[2]/lib-rc-radios/div/div/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-radios-radio-item-content-wrapper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ייצור</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/app-merchant-configuration[1]/div[@class=&quot;merchant-configuration-wrapper&quot;]/app-merchant-details[1]/form[@class=&quot;merchant-details ng-untouched ng-pristine ng-valid&quot;]/app-layout-fixed[1]/div[@class=&quot;d-flex fixed-container-wrapper&quot;]/div[@class=&quot;fixed-container&quot;]/div[@class=&quot;merchant-details-wrapper&quot;]/div[1]/app-secured-form[1]/app-secured-content[1]/fieldset[1]/div[@class=&quot;expand-area gw&quot;]/div[@class=&quot;merchant-details-general-wrapper&quot;]/div[@class=&quot;radios-wrapper&quot;]/div[@class=&quot;toggle-radios&quot;]/lib-rc-radios[1]/div[@class=&quot;rc-radios-control-wrapper&quot;]/div[@class=&quot;rc-radios-items-wrapper custom-controls-stacked&quot;]/label[@class=&quot;custom-control custom-radio&quot;]/span[@class=&quot;rc-radios-radio-item-content-wrapper&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/app-merchant-configuration/div/app-merchant-details/form/app-layout-fixed/div/div/div/div/app-secured-form/app-secured-content/fieldset/div[2]/div/div/div[2]/lib-rc-radios/div/div/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='סוג שרת'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='נתוני GW'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='טסט'])[1]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>
