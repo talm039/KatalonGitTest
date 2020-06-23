@@ -16,9 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://cg-uat.stage-rc.com/login')
+WebUI.openBrowser('https://cg-uat.stage-rc.com/login')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Credit Guard Console/label_'))
 
