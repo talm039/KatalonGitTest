@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="asdasd" time="76.647" tests="2" failures="0" errors="0">
+   <testsuite name="asdasd" tests="2" failures="0" errors="0" time="76.647" timestamp="2020-06-24 12:19:07" hostname="talm - host.docker.internal" id="Test Suites/asdasd">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\talm\\git\\KatalonGitTest\\Reports\\20200624_121905\\asdasd\\20200624_121905"/>
+         <property name="logFiles" value="C:\\Users\\talm\\git\\KatalonGitTest\\Reports\\20200624_121905\\asdasd\\20200624_121905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="talm - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="10.0.16.44"/>
+         <property name="sessionId" value="d386b553e79be1adcdd6222342a80e0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="11.132" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2020-06-24 12:19:07 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2020-06-24 12:19:08 - [TEST_STEP][PASSED] - openBrowser("https://cg-uat.stage-rc.com/login"): Browser is opened with url: 'https://cg-uat.stage-rc.com/login'
+
+2020-06-24 12:19:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-24 12:19:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-24 12:19:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://cg-uat.stage-rc.com/login'
+
+2020-06-24 12:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Credit Guard Console/label_")): Object: 'Object Repository/Login/Page_Credit Guard Console/label_' is clicked on
+
+2020-06-24 12:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Credit Guard Console/label_' is clicked on
+
+2020-06-24 12:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Credit Guard Console/input_ _username"), "strong@gmail.com"): Text 'strong@gmail.com' is set on object 'Object Repository/Login/Page_Credit Guard Console/input_ _username'
+
+2020-06-24 12:19:17 - [MESSAGE][PASSED] - Text 'strong@gmail.com' is set on object 'Object Repository/Login/Page_Credit Guard Console/input_ _username'
+
+2020-06-24 12:19:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Credit Guard Console/input_ _password"), "tWxl1kWNWe6g2z1zeHH2cc2yO57Yqd1i"): Text ****** has been set on object 'Object Repository/Login/Page_Credit Guard Console/input_ _password'
+
+2020-06-24 12:19:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Credit Guard Console/input_ _password'
+
+2020-06-24 12:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier"), "1234"): Text '1234' is set on object 'Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier'
+
+2020-06-24 12:19:18 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier'
+
+2020-06-24 12:19:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier'
+
+2020-06-24 12:19:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login/Page_Credit Guard Console/input__additionalIdentifier']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewMerchant" time="64.554" classname="Test Cases/NewMerchant" status="PASSED">
+         <system-out><![CDATA[2020-06-24 12:19:18 - [TEST_CASE][PASSED] - Test Cases/NewMerchant: Test Cases/NewMerchant
+
+2020-06-24 12:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/a_")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/a_' is clicked on
+
+2020-06-24 12:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/a_' is clicked on
+
+2020-06-24 12:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/label_ _switcher-indicator")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/label_ _switcher-indicator' is clicked on
+
+2020-06-24 12:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/label_ _switcher-indicator' is clicked on
+
+2020-06-24 12:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/label_")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/label_' is clicked on
+
+2020-06-24 12:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/label_' is clicked on
+
+2020-06-24 12:19:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input__businessNameHeb"), "טלמזרחי"): Text 'טלמזרחי' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input__businessNameHeb'
+
+2020-06-24 12:19:23 - [MESSAGE][PASSED] - Text 'טלמזרחי' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input__businessNameHeb'
+
+2020-06-24 12:19:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input_  _businessNameEng"), "talmTest5"): Text 'talmTest5' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_  _businessNameEng'
+
+2020-06-24 12:19:24 - [MESSAGE][PASSED] - Text 'talmTest5' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_  _businessNameEng'
+
+2020-06-24 12:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactEmail"), "asd@asd.com"): Text 'asd@asd.com' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactEmail'
+
+2020-06-24 12:19:24 - [MESSAGE][PASSED] - Text 'asd@asd.com' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactEmail'
+
+2020-06-24 12:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactPhoneNumber"), "1234569789"): Text '1234569789' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactPhoneNumber'
+
+2020-06-24 12:19:25 - [MESSAGE][PASSED] - Text '1234569789' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactPhoneNumber'
+
+2020-06-24 12:19:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input_ _businessId"), "123456789"): Text '123456789' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _businessId'
+
+2020-06-24 12:19:26 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _businessId'
+
+2020-06-24 12:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/input_ _customerNumber"), "00123456"): Text '00123456' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _customerNumber'
+
+2020-06-24 12:19:27 - [MESSAGE][PASSED] - Text '00123456' is set on object 'Object Repository/NewMerchant/Page_Credit Guard Console/input_ _customerNumber'
+
+2020-06-24 12:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/span_ _custom-control-indicator")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_ _custom-control-indicator' is clicked on
+
+2020-06-24 12:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_ _custom-control-indicator' is clicked on
+
+2020-06-24 12:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/span_")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_' is clicked on
+
+2020-06-24 12:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_' is clicked on
+
+2020-06-24 12:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/span__ng-arrow-wrapper")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span__ng-arrow-wrapper' is clicked on
+
+2020-06-24 12:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span__ng-arrow-wrapper' is clicked on
+
+2020-06-24 12:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/span_httpscgconsolecreditguardcoildevconsole")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_httpscgconsolecreditguardcoildevconsole' is clicked on
+
+2020-06-24 12:20:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='afee187e6a80']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-06-24 12:20:15 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-06-24 12:20:15 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='afee187e6a80']/span'.
+
+2020-06-24 12:20:15 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='https://cgconsole.creditguard.co.il/newconsole/'])[1]/following::span[1]'.
+
+2020-06-24 12:20:16 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-06-24 12:20:16 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='בחירה'])[2]/following::span[4]'.
+
+2020-06-24 12:20:16 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-06-24 12:20:17 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='שמירה'])[1]/preceding::span[1]'.
+
+2020-06-24 12:20:17 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-06-24 12:20:17 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '"', 'afee187e6a80', '"', ')/span[@class=', '"', 'ng-option-label', '"', ']')])[1]/preceding::span[1]'.
+
+2020-06-24 12:20:17 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='https://cgconsole.creditguard.co.il/devconsole/']/parent::*'.
+
+2020-06-24 12:20:18 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-06-24 12:20:18 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div[2]/span'.
+
+2020-06-24 12:20:18 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2020-06-24 12:20:18 - [MESSAGE][ERROR] - [SMART_XPATH] C:\Users\talm\git\KatalonGitTest\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the path specified)
+
+2020-06-24 12:20:18 - [MESSAGE][ERROR] - [SMART_XPATH] C:/Users/talm/git/KatalonGitTest/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2020-06-24 12:20:18 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='https://cgconsole.creditguard.co.il/newconsole/'])[1]/following::span[1]'.
+
+2020-06-24 12:20:18 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2020-06-24 12:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/span_httpscgconsolecreditguardcoildevconsole' is clicked on
+
+2020-06-24 12:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/button_")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/button_' is clicked on
+
+2020-06-24 12:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/button_' is clicked on
+
+2020-06-24 12:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewMerchant/Page_Credit Guard Console/button__1")): Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/button__1' is clicked on
+
+2020-06-24 12:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/NewMerchant/Page_Credit Guard Console/button__1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-24 12:19:07 - [TEST_SUITE][PASSED] - asdasd: Test Cases/NewMerchant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

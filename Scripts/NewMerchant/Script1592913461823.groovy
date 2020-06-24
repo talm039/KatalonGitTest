@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/NewMerchant/Page_Credit Guard Cons
 
 WebUI.setText(findTestObject('Object Repository/NewMerchant/Page_Credit Guard Console/input__businessNameHeb'), 'טלמזרחי')
 
-WebUI.setText(findTestObject('Object Repository/NewMerchant/Page_Credit Guard Console/input_  _businessNameEng'), 'talmTest4')
+WebUI.setText(findTestObject('Object Repository/NewMerchant/Page_Credit Guard Console/input_  _businessNameEng'), 'talmTest6')
 
 WebUI.setText(findTestObject('Object Repository/NewMerchant/Page_Credit Guard Console/input_ _contactEmail'), 'asd@asd.com')
 
