@@ -20,7 +20,7 @@ WebUI.openBrowser('https://cg-uat.stage-rc.com/login')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Credit Guard Console/label_'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Credit Guard Console/input_ _username'), 'strong@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Credit Guard Console/input_ _username'), 'strong@gmail.co')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Credit Guard Console/input_ _password'), 'tWxl1kWNWe6g2z1zeHH2cc2yO57Yqd1i')
 
